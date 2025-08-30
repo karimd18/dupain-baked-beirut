@@ -8,35 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Dupain Brand Colors */
+    --background: 43 12% 97%; /* Off-White: #FBF7F2 */
+    --foreground: 20 20% 22%; /* Dark Chocolate: #3A2720 */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 35 25% 90%; /* Latte Cream: #F2E6D7 */
+    --card-foreground: 20 20% 22%; /* Dark Chocolate */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 35 25% 90%; /* Latte Cream */
+    --popover-foreground: 20 20% 22%; /* Dark Chocolate */
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 20 20% 22%; /* Dark Chocolate: #3A2720 */
+    --primary-foreground: 35 25% 90%; /* Latte Cream */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 30 20% 84%; /* Soft Beige: #E9D6C2 */
+    --secondary-foreground: 20 20% 22%; /* Dark Chocolate */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 30 20% 84%; /* Soft Beige */
+    --muted-foreground: 20 15% 45%; /* Warm Cocoa lighter */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 35 35% 52%; /* Caramel Accent: #B5895A */
+    --accent-foreground: 35 25% 90%; /* Latte Cream */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 35 35% 52%; /* Caramel Accent for borders */
+    --input: 30 20% 84%; /* Soft Beige */
+    --ring: 35 35% 52%; /* Caramel Accent */
 
-    --radius: 0.5rem;
+    /* Dupain Custom Colors */
+    --warm-cocoa: 22 32% 21%; /* #4A2F24 */
+    --latte-cream: 35 25% 90%; /* #F2E6D7 */
+    --soft-beige: 30 20% 84%; /* #E9D6C2 */
+    --caramel-accent: 35 35% 52%; /* #B5895A */
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,33 +63,33 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 20 20% 22%; /* Dark Chocolate: #3A2720 */
+    --foreground: 35 25% 90%; /* Latte Cream: #F2E6D7 */
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 22 32% 21%; /* Warm Cocoa: #4A2F24 */
+    --card-foreground: 35 25% 90%; /* Latte Cream */
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 22 32% 21%; /* Warm Cocoa */
+    --popover-foreground: 35 25% 90%; /* Latte Cream */
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 35 25% 90%; /* Latte Cream */
+    --primary-foreground: 20 20% 22%; /* Dark Chocolate */
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 22 32% 21%; /* Warm Cocoa */
+    --secondary-foreground: 35 25% 90%; /* Latte Cream */
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 22 32% 21%; /* Warm Cocoa */
+    --muted-foreground: 30 20% 84%; /* Soft Beige */
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 35 35% 52%; /* Caramel Accent */
+    --accent-foreground: 35 25% 90%; /* Latte Cream */
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 35 35% 52%; /* Caramel Accent */
+    --input: 22 32% 21%; /* Warm Cocoa */
+    --ring: 35 35% 52%; /* Caramel Accent */
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
