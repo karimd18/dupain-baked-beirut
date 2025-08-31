@@ -26,7 +26,7 @@ export const VisitUs = () => {
           <div className="relative">
             <div className="aspect-video rounded-lg overflow-hidden shadow-lg border border-accent/20">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.1234567890123!2d35.50123456789012!3d33.89876543210987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDUzJzU1LjYiTiAzNcKwMzAnMDQuNCJF!5e0!3m2!1sen!2slb!4v1234567890123"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1392.4614800229917!2d35.506314124055926!3d33.89351167883898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f17667d88bc7b%3A0x4981ea458982013a!2sDupain!5e0!3m2!1sen!2sus!4v1756569880810!5m2!1sen!2sus"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

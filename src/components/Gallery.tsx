@@ -3,53 +3,52 @@ import { useState } from "react";
 export const Gallery = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
-  // Placeholder images - in a real implementation, these would come from the bakery's actual photos
   const galleryImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1508736793122-f516e3ba5569?w=400&h=400&fit=crop",
+      src: "https://i.ibb.co/yF9FjRhG/image.png",
       alt: "Fresh croissants and pastries",
       category: "pastries"
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1549024932-2d48705c9b57?w=400&h=500&fit=crop",
+      src: "https://i.ibb.co/DP0zSm8M/image.png",
       alt: "Artisanal bread selection",
       category: "breads"
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400&h=300&fit=crop",
+      src: "https://i.ibb.co/4gTMPLZw/image.png",
       alt: "Specialty coffee preparation",
       category: "coffee"
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop",
+      src: "https://i.ibb.co/QFT2YdfB/image.png",
       alt: "Bakery interior ambiance",
       category: "interior"
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=400&h=300&fit=crop",
+      src: "https://i.ibb.co/67wsb5R5/image.png",
       alt: "French macarons display",
       category: "pastries"
     },
     {
       id: 6,
-      src: "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=400&h=500&fit=crop",
+      src: "https://i.ibb.co/dqCh17V/image.png",
       alt: "Sourdough bread making",
       category: "breads"
     },
     {
       id: 7,
-      src: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400&h=400&fit=crop",
+      src: "https://i.ibb.co/Hp7RxNMp/image.png",
       alt: "Latte art coffee",
       category: "coffee"
     },
     {
       id: 8,
-      src: "https://images.unsplash.com/photo-1555507036-ab794f4afe5e?w=400&h=300&fit=crop",
+      src: "https://i.ibb.co/xy08Q04/image.png",
       alt: "Bakery display case",
       category: "interior"
     },

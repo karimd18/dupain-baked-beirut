@@ -67,7 +67,7 @@ export const Navigation = () => {
               variant="secondary"
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-inter font-medium"
             >
-              <Link to="/menu">View Menu</Link>
+              <Link to="/" onClick={() => scrollToSection("menu")}> View Menu</Link>
             </Button>
           </div>
 
